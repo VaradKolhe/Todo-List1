@@ -4,7 +4,7 @@ def connect_db():
     connection = mysql.connect(
         host='localhost',
         user='root',
-        password='yourpassword',
+        password='root',
         database='todo_db'
     )
     return connection
